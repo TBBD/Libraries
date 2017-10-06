@@ -1,0 +1,51 @@
+{
+  "contract_name": "Math",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "total",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "var1",
+          "type": "uint256"
+        },
+        {
+          "name": "var2",
+          "type": "uint256"
+        }
+      ],
+      "name": "pewPew",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b5b5b60bf8061001d6000396000f300606060405263ffffffff60e060020a6000350416632ddbd13a8114602a57806382f87728146049575bfe5b3415603157fe5b6037605e565b60408051918252519081900360200190f35b3415605057fe5b605c6004356024356064565b005b60005481565b6072828263ffffffff607a16565b6000555b5050565b600082820183811015608857fe5b8091505b50929150505600a165627a7a7230582046d4b82764696bc16b3d2626419895fb2c578dc5282c913ecdf29ea536e1c0920029",
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x13e7434a31d1be3497b3ae4035bd87492dd2ced9",
+      "updated_at": 1507295588579
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1507295588579
+}
